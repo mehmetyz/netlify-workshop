@@ -43,3 +43,8 @@ In this section, we will install the necessary tools, setup dependencies and con
 
 This architecture will be used to demonstrate the **Test Monitoring** with Thundra Foresight.
 ![AWS Architecture](/images/pre-requirements/aws-architecture.png)
+
+
+
+---
+#### Next Step :arrow_right: [Connect Foresight With Github](/integrate-foresight/connect-github-workflow.html)

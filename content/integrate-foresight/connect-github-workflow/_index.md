@@ -11,7 +11,7 @@ weight: 2
 {{% notice info %}}
 
 Before starting, you should have a GitHub account and a repository that has a GitHub Actions workflow.
-If you don't have any repository, please fork the repository :arrow_right:  [Demo Repository](https://github.com/mehmetyz/integration-tests-maven)
+If you don't have any repository, please fork the repository :arrow_right:  [Demo Repository](https://github.com/thundra-io/thundra-aws-workshop-codebase)
 
 {{% /notice %}}
 
@@ -34,7 +34,7 @@ If you don't have any repository, please fork the repository :arrow_right:  [Dem
 7. Select your repositories to watch workflows and install the plugin.
 {{% notice info %}}
 
-You can select multiple repositories. If you have already forked the [Demo Repository](https://github.com/mehmetyz/integration-tests-maven), you should use it.
+You can select multiple repositories. If you have already forked the [Demo Repository](https://github.com/thundra-io/thundra-aws-workshop-codebase), you should use it.
 
 {{% /notice %}}
 ![Configure Repo](/images/integrate-foresight/connect-github/select-github-repository.png)
@@ -47,3 +47,6 @@ You can select multiple repositories. If you have already forked the [Demo Repos
 
 10. You can see the workflow traces in the Thundra Foresight dashboard.
 ![Select Repo](/images/integrate-foresight/connect-github/final-screen.png)
+
+---
+#### Next Step :arrow_right: [Run Local Tests](/integrate-foresight/local-tests.html)

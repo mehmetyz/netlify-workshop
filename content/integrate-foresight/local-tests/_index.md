@@ -1,5 +1,5 @@
 ---
-title: "Run Tests Locally"
+title: "Run Local Tests"
 date: 2022-02-05T01:43:33+03:00
 chapter: true
 weight: 3
@@ -21,11 +21,7 @@ weight: 3
 
 6. Clone the git repository.
 
-        git clone -b foresight-workshop https://github.com/thundra-io/thundra-aws-workshop.git .
-
-7. Then type
-
-        cd foresight
+        git clone https://github.com/thundra-io/thundra-aws-workshop-codebase .
 
 {{% notice warning %}}
 **INSTALL**: Before running the tests, make sure you have download suitable Chromedriver in "*test*" folder for your Google Chrome. Download here :arrow_right: [Chromedriver](https://chromedriver.storage.googleapis.com/index.html)
@@ -49,3 +45,8 @@ weight: 3
 
 6. Your tests will be shown in the dashboard in 4-5 minutes in the **Test Runs** section.
 ![Open tests](/images/integrate-foresight/run-test/04.gif)
+
+
+---
+
+#### Next Step :arrow_right: [Monitor Github Actions Workflow](/monitor-workflow.html)

@@ -46,4 +46,6 @@ You are responsible for the cost of the AWS services used while running this wor
 
 ![AWS CLI Configure](/images/create-accounts/create-aws-account/aws-cli-screen.png)
 
-### Now your AWS account is ready to use.
+
+---
+#### Next Step :arrow_right: [Pre-Requirements](/pre-requirements.html)

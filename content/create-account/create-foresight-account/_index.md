@@ -16,5 +16,5 @@ After creating your Thundra account, you need to select Foresight to start using
 ![Thundra Foresight Start Page](/images/create-accounts/create-foresight-account/thundra-choose-foresight.png)
 
 
-
-###  <i>Now you can start using Thundra Foresight.</i>
+---
+#### Next Step :arrow_right: [Create AWS Account](/create-account/create-aws-account.html)

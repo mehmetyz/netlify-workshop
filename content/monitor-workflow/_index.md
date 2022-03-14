@@ -7,7 +7,7 @@ weight: 5
 
 # Monitor Your GitHub Action Workflows
 
-After integrating Foresight ([Integrate Foresight](/integrate-foresight.html))  with Github Actions Workflow, you can monitor your workflows in the Thundra Foresight dashboard.
+After integrating Foresight ([Integrate Foresight](/integrate-foresight/connect-github-workflow.html))  with Github Actions Workflow, you can monitor your workflows in the Thundra Foresight dashboard.
 
 1. Open the Thundra Foresight Dashboard
 
@@ -22,17 +22,23 @@ After integrating Foresight ([Integrate Foresight](/integrate-foresight.html))  
 Now you can see the details of github action workflows on the dashboard.
 ![Github Actions Workflows](/images/monitor-workflow/02.png)
 
- **Click one of the workflow-runs to see more details.**
+🚩 **Click one of the workflow-runs to see more details.**
 
-
- 
 ## Workflow Runs Detail
-![More Details](/images/monitor-workflow/03.png)
+![More Details](/images/monitor-workflow/04.png)
 
-<span style="color:red"> 1. Repository and Workflow Details Section</span>
 
-<span style="color:#03989E"> 2. Workflow Jobs Section</span>
+#### 1. Repository and Workflow Information Section
+This section shows the repository and the workflow information. You can see the execution time, commit information, branch information, and the workflow status.
 
-<span style="color:#8C52FF"> 3. Workflow Job Steps Section</span>
+#### 2. Workflow Jobs Section
+This section shows the jobs of the workflow. There may be multiple jobs in the workflow. If you select one of the jobs, you can reach out to the job details.
 
-<span style="color:#AB8900"> 4. Time Consuming for Each Step Section</span>
+#### 3. Workflow Job Details Section
+This section shows the job details. You can see each step of the job and success/failure status.
+
+#### 4. Time Consumption Section
+This section shows the time consumption of each step of the job.
+
+---
+#### Next Step :arrow_right: [Monitor Unit Tests](/monitor-test-results/unit-test.html)
